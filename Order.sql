@@ -1,0 +1,9 @@
+CREATE TABLE `Order` (
+  `OrderID` CHAR(5) NOT NULL,
+  `CustomerID` CHAR(5) DEFAULT NULL,
+  `EmployeeID` CHAR(3) DEFAULT NULL,
+  `OrderDate` DATE DEFAULT NULL,
+  `RequiredDate` DATE DEFAULT NULL,
+  `ShippedDate` DATE DEFAULT NULL,
+  PRIMARY KEY (`OrderID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;

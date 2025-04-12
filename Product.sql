@@ -1,0 +1,8 @@
+CREATE TABLE `Product` (
+  `ProductID` INT NOT NULL,
+  `ProductName` VARCHAR(50) DEFAULT NULL,
+  `PackageUnit` VARCHAR(30) DEFAULT NULL,
+  `UnitPrice` INT DEFAULT NULL,
+  `Stock` INT DEFAULT NULL,
+  PRIMARY KEY (`ProductID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
